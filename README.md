@@ -1,6 +1,7 @@
 # Refactor-VBA-Code-and-Measure-Performance
 
 
+
 ## Overview of Project
 
 Refactoring is a key part of the coding process. When refactoring code, we want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
@@ -10,7 +11,11 @@ In this analysis, we will refactor the VBA solution code in module 2 for the gre
 
 
 
-## Results
+## Analysis and Results
+
+
+### Analysis
+
 
 In the beginning of analysis, a input box is used to select the year we want to run the solution code on:
 
@@ -48,8 +53,11 @@ Next, The "ticker", "total volume", and "return" are outputted in worksheets "Al
 
 
 
-Next part of the code is about the formatting, which keeps the same as the original solution code.
+last part of the code is about the formatting, which keeps the same as the original solution code.
 
+
+
+### Results
 
 
 Below is the table of results for year 2017 and 2018. The stock performance is much better in year 2017 with only one negative return. There are only two positive stock returns in 2018. 
@@ -77,6 +85,7 @@ Original Script:
 
 
 The execution time of regactored script is about 0.25 seconds for both years while the execution time of original script both years is about 0.273 seconds. Thus, the regactored script is morev efficient than the original one, which means the refactoring is successful.
+
 
 
 
