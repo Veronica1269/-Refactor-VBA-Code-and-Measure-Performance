@@ -9,6 +9,7 @@ In this analysis, we will refactor the VBA solution code in module 2 for the gre
 
 
 
+
 ## Results
 
 In the beginning of analysis, a input box is used to select the year we want to run the solution code on:
@@ -50,6 +51,7 @@ Next, The "ticker", "total volume", and "return" are outputted in worksheets "Al
 Next part of the code is about the formatting, which keeps the same as the original solution code.
 
 
+
 Below is the table of results for year 2017 and 2018. The stock performance is much better in year 2017 with only one negative return. There are only two positive stock returns in 2018. 
 
 ![Results_table_for_all_stocks(2017)](Resources/Results_table_for_all_stocks(2017).png)
@@ -71,7 +73,7 @@ Original Script:
 
 ![Original_Script_2017](Resources/Original_Script_2017.png)
 
-![Original_Script_2018](Resources/Original_Script_2018 .png)
+![Original_Script_2018](Resources/Original_Script_2018.png)
 
 
 The execution time of regactored script is about 0.25 seconds for both years while the execution time of original script both years is about 0.273 seconds. Thus, the regactored script is morev efficient than the original one, which means the refactoring is successful.
