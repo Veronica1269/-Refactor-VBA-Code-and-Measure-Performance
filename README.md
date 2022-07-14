@@ -100,12 +100,12 @@ The execution time of regactored script is about 0.25 seconds for both years whi
 Code Refactoring is a wise method of extending the code and making it more capable and in the same way it has some disadvantages. Before we start, we need to consider whether it is necessary to go for refactoring or not.
 
 
-##### Advantages
+#### Advantages
 
 Code Refactoring makes the code more extensible for adding many other function to it. It also helps in increasing the flexibility of the code and by this the capability of code increases. After refactoring, the code is fresher, easier to understand or read, less complex and easier to maintain.
 
 
-##### Disadvantages
+#### Disadvantages
 
 We may have no idea how much time it may take to complete the refactoring. In case if it went wrong, we will have to waste much more time in solving the problem and there are probable chances that it may go wrong due to complexity of the code. Sometimes, the cost of refactoring is higher than rewriting the code.
 
