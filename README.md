@@ -117,12 +117,12 @@ We may have no idea how much time it may take to complete the refactoring. In ca
 In this study, we analyzed the stock performance using the original and refactored VBA script. The results of stock performance are the same for both scripts. The efficiency of script is determined by comparing the execution time of both scripts. 
 
 
-##### Advantages
+#### Advantages
 
 The refactored code is more efficient because the running time of refactored code is less than original codes. It only loop through all the data one time to collect the same information as the original code.
 
 
-##### Disadvantages
+#### Disadvantages
 
 Comparing with original code, the refactored code has more for loops and more arrays, which makes it more complex. This could increase the chance of bugs, and also increase the time for maintenance in the future.  Moreover, althourgh the refactored code runs faster than the original code, the difference between their excution time is less than 0.1 seconds. This tiny difference is not efficient enought comparing with the time cost of refactoring this script.
 
