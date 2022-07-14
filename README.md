@@ -75,8 +75,8 @@ The execution for the refactored script and original script is demonstrated as b
 ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 #Execution times of the refactored script
 
-![Original_Script_2017 ](Resources/Original_Script_2017.png)
-![Original_Script_2018 ](Resources/Original_Script_2018.png)
+![Original_Script_2017](Resources/Original_Script_2017.png)
+![Original_Script_2018](Resources/Original_Script_2018 .png)
 #Execution times of the original script
 
 
