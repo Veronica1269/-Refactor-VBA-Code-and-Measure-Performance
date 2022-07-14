@@ -16,8 +16,11 @@ In the beginning of analysis, a input box is used to select the year we want to 
 ![Input_box_to_select_the_year](Resources/Input_box_to_select_the_year.png)
 
 
+
 In order to loop through all the stocks one time, a ticker index is created as a variable. Also, three output arrays are created for ticker staring prices, ticker ending prices, and tocker volume.
+
 ![Code_to_create_ticker_index_and_output_arrays](Resources/Code_to_create_ticker_index_and_output_arrays.png)
+
 
 
 The initial ticker volume is setupt to zero with a for loop:
@@ -25,9 +28,11 @@ The initial ticker volume is setupt to zero with a for loop:
 ![Code_to_initialize_ticker_volume](Resources/Code_to_initialize_ticker_volume.png)
 
 
+
 The current volume for each ticker is increased by using the "tickerindex" variable as the index:
 
 ![Code_to_increase_ticker_volume](Resources/Code_to_increase_ticker_volume.png)
+
 
 
 The ticker starting prices and ending prices are assigned with the similar method as the original code:
@@ -35,9 +40,11 @@ The ticker starting prices and ending prices are assigned with the similar metho
 ![Code_to_assign_ticker_starting_prices_and_ending_prices](Resources/Code_to_assign_ticker_starting_prices_and_ending_prices.png)
 
 
+
 Next, The "ticker", "total volume", and "return" are outputted in worksheets "All Stocks Analysis" by a for loop throught the output arrays we created earlier:
 
 ![Code_to_output_results](Resources/Code_to_output_results.png)
+
 
 
 Next part of the code is about the formatting, which keeps the same as the original solution code.
@@ -48,6 +55,7 @@ Below is the table of results for year 2017 and 2018. The stock performance is m
 ![Results_table_for_all_stocks(2017)](Resources/Results_table_for_all_stocks(2017).png)
 
 ![Results table for all stocks (2018)](Resources/Results table for all stocks (2018).png)
+
 
 
 The running time of this code is measrued by subtracting two varibles, "startTime" and "endTime". Then, a message box is used to display the running time for each year. The execution time for the refactored script and original script is demonstrated as below:
