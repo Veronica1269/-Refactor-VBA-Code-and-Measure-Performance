@@ -1,4 +1,4 @@
-# Refactor-VBA-Code-and-Measure-Performance
+# Refactor VBA Code and Measure Performance
 
 
 
@@ -90,3 +90,34 @@ The execution time of regactored script is about 0.25 seconds for both years whi
 
 
 ## Summary
+
+### Gereral Advantages and Disadvantages of the Refactoring Code
+
+Code Refactoring is a wise method of extending the code and making it more capable and in the same way it has some disadvantages. Before we start, we need to consider whether it is necessary to go for refactoring or not.
+
+
+#### Advantages
+
+Code Refactoring makes the code more extensible for adding many other function to it. It also helps in increasing the flexibility of the code and by this the capability of code increases. After refactoring, the code is fresher, easier to understand or read, less complex and easier to maintain.
+
+
+#### Disadvantage
+
+We may have no idea how much time it may take to complete the refactoring. In case if it went wrong, we will have to waste much more time in solving the problem and there are probable chances that it may go wrong due to complexity of the code. Sometimes, the cost of refactoring is higher than rewriting the code.
+
+
+
+### Advantages and Disadvantages of the Original and Refactored VBA script
+
+In this study, we analyzed the stock performance using the original and refactored VBA script. The results of stock performance are the same for both scripts. The efficiency of script is determined by comparing the execution time of both scripts. 
+
+
+#### Advantages
+
+The refactored code is more efficient because the running time of refactored code is less than original codes. It only loop through all the data one time to collect the same information as the original code.
+
+
+#### Disadvantages
+
+Comparing with original code, the refactored code has more for loops and more arrays, which makes it more complex. This could increase the chance of bugs, and also increase the time for maintenance in the future.  Moreover, althourgh the refactored code runs faster than the original code, the difference between their excution time is less than 0.1 seconds. This tiny difference is not efficient enought comparing with the time cost of refactoring this script.
+
