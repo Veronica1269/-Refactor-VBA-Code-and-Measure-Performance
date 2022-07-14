@@ -2,11 +2,13 @@
 
 
 
+
 ## Overview of Project
 
 Refactoring is a key part of the coding process. When refactoring code, we want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
 
 In this analysis, we will refactor the VBA solution code in module 2 for the green stocks dataset to loop through all the data one time to collect the same information as the original code. Next, the efficiency of this refactored code will be analysis by measuring the running time of the code. A successful refactored code will made the VBA script run faster. Finally, we will discuss the advantage and disadvantage of the original and refactored VBA script.
+
 
 
 
@@ -57,6 +59,7 @@ last part of the code is about the formatting, which keeps the same as the origi
 
 
 
+
 ### Results
 
 
@@ -89,6 +92,7 @@ The execution time of regactored script is about 0.25 seconds for both years whi
 
 
 
+
 ## Summary
 
 ### Gereral Advantages and Disadvantages of the Refactoring Code
@@ -104,6 +108,7 @@ Code Refactoring makes the code more extensible for adding many other function t
 #### Disadvantage
 
 We may have no idea how much time it may take to complete the refactoring. In case if it went wrong, we will have to waste much more time in solving the problem and there are probable chances that it may go wrong due to complexity of the code. Sometimes, the cost of refactoring is higher than rewriting the code.
+
 
 
 
