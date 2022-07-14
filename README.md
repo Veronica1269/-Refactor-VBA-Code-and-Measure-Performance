@@ -12,6 +12,7 @@ In this analysis, we will refactor the VBA solution code in module 2 for the gre
 ## Results
 
 In the beginning of analysis, a input box is used to select the year we want to run the solution code on:
+
 ![Input_box_to_select_the_year](Resources/Input_box_to_select_the_year.png)
 
 
@@ -20,18 +21,22 @@ In order to loop through all the stocks one time, a ticker index is created as a
 
 
 The initial ticker volume is setupt to zero with a for loop:
+
 ![Code_to_initialize_ticker_volume](Resources/Code_to_initialize_ticker_volume.png)
 
 
 The current volume for each ticker is increased by using the "tickerindex" variable as the index:
+
 ![Code_to_increase_ticker_volume](Resources/Code_to_increase_ticker_volume.png)
 
 
 The ticker starting prices and ending prices are assigned with the similar method as the original code:
+
 ![Code_to_assign_ticker_starting_prices_and_ending_prices](Resources/Code_to_assign_ticker_starting_prices_and_ending_prices.png)
 
 
 Next, The "ticker", "total volume", and "return" are outputted in worksheets "All Stocks Analysis" by a for loop throught the output arrays we created earlier:
+
 ![Code_to_output_results](Resources/Code_to_output_results.png)
 
 
@@ -39,12 +44,14 @@ Next part of the code is about the formatting, which keeps the same as the origi
 
 
 Below is the table of results for year 2017 and 2018. The stock performance is much better in year 2017 with only one negative return. There are only two positive stock returns in 2018. 
+
 ![Results_table_for_all_stocks(2017)](Resources/Results_table_for_all_stocks(2017).png)
 
 ![Results table for all stocks (2018)](Resources/Results table for all stocks (2018).png)
 
 
 The running time of this code is measrued by subtracting two varibles, "startTime" and "endTime". Then, a message box is used to display the running time for each year. The execution time for the refactored script and original script is demonstrated as below:
+
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
 
 ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
