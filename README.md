@@ -56,7 +56,7 @@ Below is the table of results for year 2017 and 2018. The stock performance is m
 
 
 
-![Results table for all stocks (2017)](Resources/Results table for all stocks (2017).png)
+![Results_table_for_all_stocks(2017)](Resources/Results_table_for_all_stocks(2017).png)
 #Results table for all stocks (2017)
 
 
